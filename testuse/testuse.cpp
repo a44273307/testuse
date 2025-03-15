@@ -4,6 +4,7 @@
 #include <vector>
 #include <cstring>
 #include <chrono>
+#include <iomanip>  // std::hex, std::setfill, std::setw
 
 #pragma comment(lib, "Ws2_32.lib")  // 链接 ws2_32 库
 
@@ -11,11 +12,21 @@
 #define SERVER_PORT 8887
 #define TIMEOUT_MS 500  // 超时时间 10ms
 
-int main() {
+void printVector(const std::vector<unsigned char>& vec) {
+    std::cout << "Hex data: ";
+    for (unsigned char byte : vec) {
+        std::cout << "0x" << std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(byte) << " ";
+    }
+    std::cout << std::dec << std::endl; // 恢复十进制输出
+}
+int sendorderandcheckrsp(std::vector<unsigned char> sendData,std::vector<unsigned char> rspData)
+{
+    printVector(sendData);
+    printVector(rspData);
     WSADATA wsaData;
     SOCKET clientSocket;
     struct sockaddr_in serverAddr;
-    std::vector<unsigned char> sendData = { 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };
+    
     unsigned char buffer[1024] = { 0 };
 
     // 初始化 Winsock
@@ -83,7 +94,7 @@ int main() {
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
     if (recvLen > 0) {
-        if (recvLen == sendData.size() && memcmp(buffer, sendData.data(), recvLen) == 0) {
+        if (recvLen == rspData.size() && memcmp(buffer, rspData.data(), recvLen) == 0) {
             std::cout << "Received data matches sent data.\n";
             std::cout << "Time taken from send to receive: " << duration << " ms\n";
             closesocket(clientSocket);
@@ -104,4 +115,26 @@ int main() {
         WSACleanup();
         return -1;
     }
+}
+
+int  controlTopDiskRotation(int diskNumber)
+{
+    std::vector<unsigned char> sendData = { 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };
+    sendData[2]=diskNumber;
+    int sum=0;
+    for(int i=0;i<8;i++)
+    {
+        sum+=sendData[i];
+    }
+    sendData[8]=sum;
+    std::vector<unsigned char> trspData=sendData;
+    return sendorderandcheckrsp(sendData,trspData);
+}
+
+int main() {
+   /* std::vector<unsigned char> sendData = { 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };    
+    std::vector<unsigned char> trspData = { 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };    
+    return sendorderandcheckrsp(sendData,trspData);*/
+    controlTopDiskRotation(1);
+    controlTopDiskRotation(2);
 }
