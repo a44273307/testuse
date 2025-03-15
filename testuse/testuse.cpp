@@ -117,6 +117,7 @@ int sendorderandcheckrsp(std::vector<unsigned char> sendData,std::vector<unsigne
     }
 }
 
+// 控制旋转选择指令上圆盘1号孔
 int  controlTopDiskRotation(int diskNumber)
 {
     std::vector<unsigned char> sendData = { 0x01, 0x01, 0x01, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };
