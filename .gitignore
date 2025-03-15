@@ -1,0 +1,88 @@
+# Visual Studio 文件
+.vscode/
+*.code-workspace
+
+# 编译输出
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+*.ncb
+*.sdf
+*.suo
+*.tlb
+*.tli
+*.pch
+*.manifest
+*.res
+
+# CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+CMakeLists.txt.user
+cmake_install.cmake
+install_manifest.txt
+
+# Visual Studio 生成的目录
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+build/
+out/
+bin/
+obj/
+Generated Files/
+
+# 用户特定文件
+*.user
+*.rsuser
+*.sln.docstates
+
+# 编译器自动生成的日志或文件
+*.log
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.opendb
+*.Build.*.log
+
+# 包管理相关文件
+.nuget/
+*.nupkg
+*.snupkg
+packages/
+*.vsix
+
+# 临时文件
+*.tmp
+*.cache
+*.lock
+*.gz
+*.zip
+
+# 其他可能的临时文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.idea/
+*.swp
+*.swn
+*.swo
+
+# Visual Studio 解决方案文件夹
+.vs/
+*.sln.iml
