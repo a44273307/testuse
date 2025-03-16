@@ -15,6 +15,7 @@
 #define TIMEOUT_MS 500  // 超时时间 10ms
 #include <sstream>
 #include <string>
+#include "crortrol.h"
 using std::string;
 void printVector(const std::vector<unsigned char>& vec,string input="") {
     std::ostringstream oss;
@@ -268,42 +269,42 @@ int  controlBottomDiskRotation(int diskNumber)
 
 // 上圆盘信息读取
 //  order:   
-// 02  目标位置
-// 03  实时位置
+// 02  实时位置
+// 03  目标位置
 // 04 复位完成标志 
 // 05 运行电流
-int  readTopDiskInfo(int order,long long& getRspData)
+int  readTopDiskInfo(int order,long long* getRspData)
 {
     
     std::vector<unsigned char> sendData = { 0x01, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x04 };
     sendData[1]=order;
     dealSenddata(sendData);
-    return sendorderandrspans(sendData,getRspData);
+    return sendorderandrspans(sendData,*getRspData);
 }
 // 读取下圆盘信息，参数同上圆盘
-int  readBottomDiskInfo(int order,long long& getRspData)
+int  readBottomDiskInfo(int order,long long* getRspData)
 {
     
     std::vector<unsigned char> sendData = { 0x01, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x04 };
     sendData[1]=order;
     dealSenddata(sendData);
-    return sendorderandrspans(sendData,getRspData);
+    return sendorderandrspans(sendData,*getRspData);
 }
 // 读取聚焦信息，参数同上圆盘
-int  readfocusInfo(int order,long long& getRspData)
+int  readfocusInfo(int order,long long* getRspData)
 {
     std::vector<unsigned char> sendData = { 0x01, 0x02, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x04 };
     sendData[1]=order;
     dealSenddata(sendData);
-    return sendorderandrspans(sendData,getRspData);
+    return sendorderandrspans(sendData,*getRspData);
 }
 // 读取光圈信息，参数同上圆盘
-int  readapertureInfo(int order,long long& getRspData)
+int  readapertureInfo(int order,long long* getRspData)
 {
     std::vector<unsigned char> sendData = { 0x01, 0x02, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x04 };
     sendData[1]=order;
     dealSenddata(sendData);
-    return sendorderandrspans(sendData,getRspData);
+    return sendorderandrspans(sendData,*getRspData);
 }
 // 光圈位置控制 取值范围0-------1500000
 int  controlapertureRotation(long long value)
@@ -339,18 +340,28 @@ int main() {
 
     long long rsp;
     controlfocusRotation(1000);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
+    readfocusInfo(02, &rsp);
     LOG_F(INFO, "**********");
     Sleep(1000); // 休眠 1000 毫秒（1 秒）
 
-    controlfocusRotation(2000);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
-    readfocusInfo(02, rsp);
+    controlfocusRotation(3000);
+    for(int i=0;i<10;i++)
+    {
+        Sleep(100); // 休眠 1000 毫秒（1 秒）
+        readfocusInfo(02, &rsp);
+    }
+    controlfocusRotation(1000);
+    for (int i = 0; i < 30; i++)
+    {
+        Sleep(100); // 休眠 1000 毫秒（1 秒）
+        readfocusInfo(02, &rsp);
+    }
+
+
 }

@@ -132,6 +132,7 @@
     <ClCompile Include="testuse.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="crortrol.h" />
     <ClInclude Include="loguru.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

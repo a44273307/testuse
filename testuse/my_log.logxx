@@ -1,0 +1,322 @@
+
+
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2025-03-15 18:03:26.703 (   0.049s) [                ]             loguru.cpp:771   INFO| Logging to 'my_log.logxx', mode: 'a', verbosity: 9
+2025-03-15 18:03:26.704 (   0.050s) [                ]            testuse.cpp:325   INFO| controlfocusRotation 1000
+2025-03-15 18:03:26.704 (   0.050s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:26.705 (   0.050s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:26.751 (   0.097s) [                ]            testuse.cpp:96    INFO| Received Data:
+2025-03-15 18:03:26.751 (   0.097s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:26.752 (   0.097s) [                ]            testuse.cpp:99    INFO| Received data matches sent data.
+2025-03-15 18:03:26.752 (   0.097s) [                ]            testuse.cpp:100   INFO| Time taken from send to receive: 39 ms
+2025-03-15 18:03:26.752 (   0.098s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:26.801 (   0.147s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:26.801 (   0.147s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:26.801 (   0.147s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:26.801 (   0.147s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:26.802 (   0.147s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:26.803 (   0.148s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:26.851 (   0.197s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:26.851 (   0.197s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:26.851 (   0.197s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:26.851 (   0.197s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:26.853 (   0.199s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:26.854 (   0.200s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:26.901 (   0.246s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:26.901 (   0.247s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:26.902 (   0.247s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:26.903 (   0.248s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 42 ms
+2025-03-15 18:03:26.904 (   0.250s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:26.904 (   0.250s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:26.950 (   0.296s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:26.951 (   0.297s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:26.952 (   0.298s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:26.953 (   0.299s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 42 ms
+2025-03-15 18:03:26.954 (   0.299s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:26.954 (   0.300s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:27.000 (   0.346s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:27.001 (   0.346s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:27.002 (   0.348s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:27.004 (   0.350s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 42 ms
+2025-03-15 18:03:27.004 (   0.350s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:27.005 (   0.350s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:27.050 (   0.396s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:27.051 (   0.396s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:27.052 (   0.398s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:27.053 (   0.399s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 41 ms
+2025-03-15 18:03:27.054 (   0.399s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:27.057 (   0.403s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:27.110 (   0.456s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:27.110 (   0.456s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:27.112 (   0.458s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:27.112 (   0.458s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 47 ms
+2025-03-15 18:03:27.114 (   0.460s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:27.116 (   0.461s) [                ]            testuse.cpp:349   INFO| **********
+2025-03-15 18:03:28.116 (   1.462s) [                ]            testuse.cpp:325   INFO| controlfocusRotation 3000
+2025-03-15 18:03:28.117 (   1.463s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0xB 0xB8 0xC8 
+2025-03-15 18:03:28.118 (   1.464s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0xB 0xB8 0xC8 
+2025-03-15 18:03:28.168 (   1.513s) [                ]            testuse.cpp:96    INFO| Received Data:
+2025-03-15 18:03:28.169 (   1.514s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0xB 0xB8 0xC8 
+2025-03-15 18:03:28.171 (   1.517s) [                ]            testuse.cpp:99    INFO| Received data matches sent data.
+2025-03-15 18:03:28.175 (   1.521s) [                ]            testuse.cpp:100   INFO| Time taken from send to receive: 41 ms
+2025-03-15 18:03:28.276 (   1.622s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:28.327 (   1.673s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:28.328 (   1.674s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x7 0x8F 0x9C 
+2025-03-15 18:03:28.330 (   1.676s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:28.330 (   1.676s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:28.331 (   1.677s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1935
+2025-03-15 18:03:28.433 (   1.779s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:28.486 (   1.832s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:28.486 (   1.832s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:28.488 (   1.833s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:28.488 (   1.834s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 47 ms
+2025-03-15 18:03:28.488 (   1.834s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:28.589 (   1.935s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:28.636 (   1.982s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:28.637 (   1.983s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:28.642 (   1.988s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:28.643 (   1.988s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:28.643 (   1.989s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:28.744 (   2.090s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:28.796 (   2.141s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:28.797 (   2.142s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:28.804 (   2.149s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:28.804 (   2.150s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:28.805 (   2.151s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:28.907 (   2.253s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:28.955 (   2.301s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:28.955 (   2.301s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:28.958 (   2.304s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:28.959 (   2.304s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:28.959 (   2.305s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.060 (   2.406s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.115 (   2.460s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.115 (   2.461s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.121 (   2.467s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.122 (   2.467s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 49 ms
+2025-03-15 18:03:29.122 (   2.468s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.223 (   2.568s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.274 (   2.620s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.274 (   2.620s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.276 (   2.621s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.276 (   2.622s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:29.276 (   2.622s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.378 (   2.723s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.424 (   2.769s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.425 (   2.771s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.426 (   2.772s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.428 (   2.774s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 41 ms
+2025-03-15 18:03:29.428 (   2.774s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.530 (   2.876s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.583 (   2.929s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.585 (   2.930s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.592 (   2.938s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.594 (   2.940s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 48 ms
+2025-03-15 18:03:29.595 (   2.941s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.696 (   3.042s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.743 (   3.089s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.745 (   3.090s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.747 (   3.093s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.750 (   3.096s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 41 ms
+2025-03-15 18:03:29.752 (   3.098s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:29.753 (   3.099s) [                ]            testuse.cpp:325   INFO| controlfocusRotation 1000
+2025-03-15 18:03:29.753 (   3.099s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:29.754 (   3.099s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:29.803 (   3.148s) [                ]            testuse.cpp:96    INFO| Received Data:
+2025-03-15 18:03:29.803 (   3.149s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-15 18:03:29.807 (   3.153s) [                ]            testuse.cpp:99    INFO| Received data matches sent data.
+2025-03-15 18:03:29.810 (   3.156s) [                ]            testuse.cpp:100   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:29.912 (   3.257s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:29.963 (   3.308s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:29.963 (   3.309s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:29.971 (   3.316s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:29.972 (   3.317s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 47 ms
+2025-03-15 18:03:29.972 (   3.318s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.074 (   3.420s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.132 (   3.477s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.132 (   3.478s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.139 (   3.485s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.139 (   3.485s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 49 ms
+2025-03-15 18:03:30.140 (   3.486s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.241 (   3.587s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.291 (   3.637s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.291 (   3.637s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.293 (   3.639s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.293 (   3.639s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:30.294 (   3.640s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.395 (   3.741s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.441 (   3.786s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.441 (   3.787s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.442 (   3.788s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.442 (   3.788s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 42 ms
+2025-03-15 18:03:30.442 (   3.788s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.543 (   3.889s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.590 (   3.936s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.591 (   3.936s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.592 (   3.937s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.592 (   3.938s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:30.593 (   3.939s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.695 (   4.040s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.740 (   4.086s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.740 (   4.086s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.742 (   4.087s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.742 (   4.088s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 39 ms
+2025-03-15 18:03:30.743 (   4.088s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.844 (   4.190s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:30.889 (   4.235s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:30.890 (   4.236s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0xB 0xB8 0xC9 
+2025-03-15 18:03:30.895 (   4.241s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:30.896 (   4.241s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 40 ms
+2025-03-15 18:03:30.896 (   4.242s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 3000
+2025-03-15 18:03:30.997 (   4.343s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.049 (   4.395s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.050 (   4.396s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x8 0x6C 0x7A 
+2025-03-15 18:03:31.053 (   4.399s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.053 (   4.399s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:31.054 (   4.400s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 2156
+2025-03-15 18:03:31.156 (   4.502s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.209 (   4.554s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.210 (   4.555s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE9 0xF2 
+2025-03-15 18:03:31.211 (   4.557s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.211 (   4.557s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 47 ms
+2025-03-15 18:03:31.212 (   4.558s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1001
+2025-03-15 18:03:31.314 (   4.660s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.368 (   4.714s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.369 (   4.714s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:31.369 (   4.715s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.370 (   4.715s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 48 ms
+2025-03-15 18:03:31.370 (   4.716s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:31.471 (   4.817s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.518 (   4.864s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.518 (   4.864s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:31.518 (   4.864s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.519 (   4.864s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:31.519 (   4.864s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:31.620 (   4.965s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.667 (   5.013s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.667 (   5.013s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:31.668 (   5.014s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.668 (   5.014s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:31.668 (   5.014s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:31.769 (   5.114s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.816 (   5.162s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.817 (   5.162s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:31.817 (   5.163s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.818 (   5.163s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:31.818 (   5.164s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:31.918 (   5.264s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:31.967 (   5.312s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:31.967 (   5.313s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:31.968 (   5.314s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:31.971 (   5.316s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:31.972 (   5.318s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.074 (   5.419s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.125 (   5.471s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.127 (   5.472s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.129 (   5.474s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.130 (   5.476s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:32.134 (   5.480s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.234 (   5.580s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.285 (   5.631s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.285 (   5.631s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.289 (   5.635s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.292 (   5.637s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:32.293 (   5.638s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.394 (   5.740s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.445 (   5.791s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.446 (   5.792s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.452 (   5.798s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.456 (   5.801s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 46 ms
+2025-03-15 18:03:32.456 (   5.802s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.558 (   5.903s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.604 (   5.950s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.605 (   5.951s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.608 (   5.953s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.608 (   5.954s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 42 ms
+2025-03-15 18:03:32.612 (   5.957s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.713 (   6.059s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.764 (   6.110s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.764 (   6.110s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.769 (   6.114s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.769 (   6.115s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:32.771 (   6.117s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:32.872 (   6.218s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:32.923 (   6.269s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:32.924 (   6.270s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:32.931 (   6.277s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:32.931 (   6.277s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:32.932 (   6.277s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.033 (   6.378s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.083 (   6.429s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.084 (   6.429s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.092 (   6.437s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.092 (   6.437s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:33.092 (   6.438s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.193 (   6.539s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.242 (   6.588s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.243 (   6.589s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.251 (   6.597s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.253 (   6.599s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:33.254 (   6.600s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.357 (   6.703s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.402 (   6.748s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.403 (   6.749s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.411 (   6.757s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.411 (   6.757s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 40 ms
+2025-03-15 18:03:33.411 (   6.757s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.512 (   6.858s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.563 (   6.908s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.563 (   6.909s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.564 (   6.910s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.568 (   6.913s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:33.568 (   6.914s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.670 (   7.015s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.721 (   7.067s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.722 (   7.067s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.723 (   7.069s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.723 (   7.069s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 47 ms
+2025-03-15 18:03:33.726 (   7.072s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.831 (   7.176s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:33.880 (   7.226s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:33.881 (   7.227s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:33.889 (   7.235s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:33.890 (   7.235s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:33.891 (   7.237s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:33.992 (   7.338s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:34.040 (   7.386s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:34.041 (   7.387s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:34.044 (   7.390s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:34.046 (   7.392s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 43 ms
+2025-03-15 18:03:34.047 (   7.392s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:34.150 (   7.495s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:34.199 (   7.545s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:34.200 (   7.545s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:34.202 (   7.548s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:34.206 (   7.552s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 41 ms
+2025-03-15 18:03:34.207 (   7.553s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:34.309 (   7.655s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:34.359 (   7.705s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:34.359 (   7.705s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:34.362 (   7.707s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:34.364 (   7.710s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 44 ms
+2025-03-15 18:03:34.366 (   7.711s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+2025-03-15 18:03:34.466 (   7.812s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
+2025-03-15 18:03:34.519 (   7.864s) [                ]            testuse.cpp:219   INFO| Received Data:
+2025-03-15 18:03:34.520 (   7.866s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x3 0xE8 0xF1 
+2025-03-15 18:03:34.525 (   7.870s) [                ]            testuse.cpp:222   INFO| Received data matches sent data.
+2025-03-15 18:03:34.530 (   7.876s) [                ]            testuse.cpp:223   INFO| Time taken from send to receive: 45 ms
+2025-03-15 18:03:34.531 (   7.876s) [                ]            testuse.cpp:224   INFO| getlongrspdata: 1000
+
+
+
+
+
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2025-03-17 06:57:14.912 (   0.051s) [                ]             loguru.cpp:771   INFO| Logging to 'my_log.logxx', mode: 'a', verbosity: 9
+2025-03-17 06:57:14.915 (   0.053s) [                ]            testuse.cpp:325   INFO| controlfocusRotation 1000
+2025-03-17 06:57:14.920 (   0.057s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-17 06:57:14.920 (   0.058s) [                ]            testuse.cpp:25    INFO| 0x1 0x1 0x0 0x3 0x0 0x0 0x3 0xE8 0xF0 
+2025-03-17 06:57:35.928 (  21.066s) [                ]            testuse.cpp:54     ERR| Connection failed
+2025-03-17 06:57:35.928 (  21.066s) [                ]            testuse.cpp:25    INFO| 0x1 0x2 0x0 0x3 0x0 0x0 0x0 0x0 0x6 
