@@ -18,5 +18,13 @@
     <ClCompile Include="testuse.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="loguru.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loguru.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
