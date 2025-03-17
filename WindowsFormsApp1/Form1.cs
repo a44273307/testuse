@@ -19,7 +19,16 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("init");
+            int sum = ControllerWrapper.testa_add(10, 20);
+            
+            //Console.WriteLine($"testa_add(10, 20) = {sum}");
+            MessageBox.Show(sum.ToString());
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }
