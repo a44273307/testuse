@@ -15,6 +15,7 @@
 #define TIMEOUT_MS 500  // 超时时间 10ms
 #include <sstream>
 #include <string>
+#define CONTROLLER_EXPORTS
 #include "crortrol.h"
 using std::string;
 void printVector(const std::vector<unsigned char>& vec,string input="") {
@@ -334,7 +335,11 @@ int  controlfocusRotation(long long value)
     std::vector<unsigned char> trspData=sendData;
     return sendorderandcheckrsp(sendData,trspData);
 }
-int main() {
+int testa_add(int a,int b)
+{
+    return a+b;
+}
+int mainxx() {
 
     loguru::add_file("my_log.logxx", loguru::Append, loguru::Verbosity_MAX);
 
@@ -362,6 +367,6 @@ int main() {
         Sleep(100); // 休眠 1000 毫秒（1 秒）
         readfocusInfo(02, &rsp);
     }
-
+    return 0;
 
 }
